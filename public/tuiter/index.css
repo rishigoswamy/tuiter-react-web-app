@@ -161,8 +161,8 @@
 }
 
 .wd-bookmark-big-img{
-    width:506px;
-    height:264px;
+    width:90%;
+    /*height:;*/
     padding-left: 64px;
 }
 
@@ -226,9 +226,9 @@
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
+    position: relative;
+    bottom: 4%;
+    left: -30%;
 }
 
 .btn-primary-white {
@@ -240,4 +240,8 @@
     background-color: black;
     color:white;
 
+}
+
+.wd-text-small {
+    font-size:12px;
 }

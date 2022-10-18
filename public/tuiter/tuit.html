@@ -5,30 +5,24 @@
     <title>Tuit</title>
 </head>
 <body>
-<button><a href="navigation.html">Back</a></button>
-<h1>Tuiter</h1>
-
-<h2>Tuit</h2>
-<img height="48px" width="48px"
-     src="oswald.jpeg"/>
-<form id="textarea">
+    <a href="navigation.html">Back</a><br>
+    <h1><u>TUITER </u></h1>
+    <h2>TUIT</h2>
+    <img
+            src="../labs/a2/html/my_profile_pic.jpeg"
+            width="72" alt="My Profile Pic."/>
     <br/>
-    <textarea cols="50" rows="10">What's happening?</textarea>
-</form>
+    <form id="textarea">
+        <textarea cols="30" rows="7" placeholder="What's happening?"></textarea>
+    </form>
 
-<label for="select-one-option">
-</label><br/>
-<select id="select-one-option">
-    <option selected value="EVERYONE">Everyone can reply</option>
-    <option value="FOLLOWING">People you follow</option>
-    <option value="MENTIONED">
-        Only people you mention</option>
-</select>
+    <select id="select-one-genre">
+        <option selected value="EVERYONE">Everyone can reply</option>
+        <option value="FOLLOWING">People you follow</option>
+        <option value="MENTIONED">Only people you mention</option>
+    </select><br><br>
 
-<h2>File upload</h2>
-<input type="file"/>
-
-<button><a href="">Tuit</a></button>
-</br>
+    <input type="file" id="img" name="img" accept="image/*">
+    <button>Tuit!</button>
 </body>
 </html>
