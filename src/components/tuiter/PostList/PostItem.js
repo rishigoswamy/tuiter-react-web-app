@@ -25,7 +25,7 @@ const PostItem = ({
             <p className="wd-bookmark-para">{post.title}</p>
             <div className="wd-round-border">
                 <img className="wd-padding-top wd-bookmark-big-img wd-rounded-corners-all-around"
-                src={require("https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg")} alt="spaceX"/>
+                src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg" alt="spaceX"/>
 
                 <p className="wd-bookmark-para"><b>{post.heading}</b></p>
                 <p className="wd-bookmark-para-body">{post.data}</p>
