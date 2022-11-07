@@ -1,14 +1,14 @@
 {
   "profilePicture": "tesla.jpg",
-  "name": "Jose Annunziato",
-  "handle":"@janmuzi",
-  "tuitNums": "6,114",
+  "name": "User",
+  "handle":"@user",
+  "tuitNums": "73",
   "bannerPicture": "elon.jpg",
-  "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast.Retuits and likes are not endorsements.",
-  "website": "youtube.com/webdevtv",
+  "bio": "Student",
+  "website": "youtube.com/user",
   "location": "Boston, MA",
-  "dateOfBirth": "7/7/1968",
-  "dateJoined": "4/2009",
-  "followingCount": 340,
-  "followersCount": 223
+  "dateOfBirth": "10/10/1990",
+  "dateJoined": "1/2022",
+  "followingCount": 45,
+  "followersCount": 22
 }
