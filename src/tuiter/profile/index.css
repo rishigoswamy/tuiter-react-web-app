@@ -1,0 +1,40 @@
+.wd-tabs li {
+   display: inline;
+}
+
+.wd-tabs {
+   padding-left: 0px;
+}
+
+.wd-selected {
+   border-bottom: 2px blue solid;
+   padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+   bottom: 18px;
+   left: 25px;
+}
+
+.wd-bottom-2 {
+   bottom: 2px;
+}
+
+.wd-bottom-4 {
+   bottom: 4px;
+}
+.tuits-color {
+   font-size: small;
+   color: lightgray;
+}
+.rounded-button {
+   margin-top: 5px;
+   background-color: #0d6efd;
+   text-align: center;
+   font-size: small;
+   color: white;
+   border-radius: 50px;
+   border: #0d6efd;
+   width: 100%;
+   height: 40px;
+}
