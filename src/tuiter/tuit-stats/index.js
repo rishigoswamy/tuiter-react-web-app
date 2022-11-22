@@ -1,5 +1,6 @@
 import React from "react";
 import ConditionalLike from "../conditional-like/conditional-like";
+import {useDispatch} from "react-redux";
 
 const TuitStats = (
  {
@@ -20,20 +21,21 @@ const TuitStats = (
  }
 ) => {
 return(
-    <div class="container ps-5">
-    <div class="row">
-        <div class="col-sm">
+    <div className="container ps-5">
+    <div className="row">
+        <div className="col-sm">
         <i className="fa-regular fa-comment"></i>
           &nbsp;{post.comments}
         </div>
-        <div class="col-sm">
+        <div className="col-sm">
         <i className="fa-solid fa-retweet"></i>
           &nbsp;{post.retuits}
         </div>
-        <div class="col-sm">
+        <div className="col-sm">
             <ConditionalLike tuit={post}/>
         </div>
-        <div class="col-sm">
+
+        <div className="col-sm">
         <i className="fa-solid fa-download"></i>
         </div>
     </div>
